@@ -1,4 +1,7 @@
 //your JS code here. If required.
+window.onLoad=()=>{
+	document.getElementById("code-1").focus()
+}
 let inputs=document.querySelectorAll(".code")
 inputs.forEach((input,index)=>{
 	input.addEventListener("input",()=>{
