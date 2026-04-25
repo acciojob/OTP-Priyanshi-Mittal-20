@@ -1,5 +1,5 @@
 //your JS code here. If required.
-window.onLoad=()=>{
+window.onload=()=>{
 	document.getElementById("code-1").focus()
 }
 let inputs=document.querySelectorAll(".code")
